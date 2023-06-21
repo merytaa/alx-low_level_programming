@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * main - Entry point
- *
+ * description: if alpabet is lowercase
+ * @c: ASCII code caracter
  * Return: Always 0 (Success)
  */
 int _islower(int c)
