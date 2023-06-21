@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * _abs - Entry point
+ *
+ * @i: integer
  *
  * Return: Always 0 (Success)
  */
