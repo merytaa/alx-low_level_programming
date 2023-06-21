@@ -1,6 +1,9 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * print_sign - Entry point
+ *
+ * @n: number integer
  *
  * Return: Always 0 (Success)
  */
