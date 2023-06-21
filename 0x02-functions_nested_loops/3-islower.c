@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- * description: if alpabet is lowercase
+ * _islower - if alpabet is lowercase
  * @c: ASCII code caracter
  * Return: Always 0 (Success)
  */
