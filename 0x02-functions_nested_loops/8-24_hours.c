@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
+ * jack_bauer - Entry point
  *
  * Return: Always 0 (Success)
  */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
