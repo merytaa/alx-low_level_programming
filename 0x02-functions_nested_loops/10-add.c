@@ -1,6 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
+ * add - Entry point
+ *
+ * @n1: first integer
+ *
+ * @n2: second integer
  *
  * Return: Always 0 (Success)
  */
