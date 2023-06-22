@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
+ * time_table - Entry point
  *
  * Return: Always 0 (Success)
  */
-int time_table(void)
+void time_table(void)
 {
 	int x, y, z, u, d;
 
