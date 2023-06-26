@@ -1,10 +1,13 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * reset_to_98 - Entry point
+ *
+ * Description: function remain to 98
+ *
  * @a: integer
  * Return: none (Success)
  */
-void reset_to_98(int *n)
+void reset_to_98(int *a)
 {
-	*n = 98;
+	*a = 98;
 }
