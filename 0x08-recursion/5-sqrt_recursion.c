@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
+int actual_sqrt_recursion(int n, int m);
+
 /**
  * _sqrt_recursion - check the code
  * @n : value
