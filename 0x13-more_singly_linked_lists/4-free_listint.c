@@ -2,7 +2,7 @@
 
 /**
  * free_listint - frees list
- * @poin: listint  freed
+ * @head: listint  freed
  */
 void free_listint(listint_t *head)
 {
