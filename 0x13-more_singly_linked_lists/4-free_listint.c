@@ -4,14 +4,14 @@
  * free_listint - frees list
  * @poin: listint  freed
  */
-void free_listint(listint_t *poin)
+void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
-	while (poin)
+	while (head)
 	{
 		temp = head->next;
-		free(poin);
-		poin = temp;
+		free(head);
+		head = temp;
 	}
 }
