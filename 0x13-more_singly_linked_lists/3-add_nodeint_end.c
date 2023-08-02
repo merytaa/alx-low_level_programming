@@ -1,34 +1,34 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end - adds list
- * @poin: pointe in  list
- * @m: data to insert in the new element
+ * add_nodeint_end - add a list
+ * @head: pointe in list
+ * @n: data of element
  *
  * Return: pointe or NULL
  */
-listint_t *add_nodeint_end(listint_t **poin, const int m)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *new;
-	listint_t *temp = *poin;
+	listint_t *w;
+	listint_t *temp = *head;
 
-	new = malloc(sizeof(listint_t));
-	if (!new)
+	w = malloc(sizeof(listint_t));
+	if (!w)
 		return (NULL);
 
-	new->m = m;
-	new->next = NULL;
+	w->n = n;
+	w->next = NULL;
 
-	if (*poin == NULL)
+	if (*head == NULL)
 	{
-		*poin = new;
-		return (new);
+		*head = w;
+		return (w);
 	}
 
 	while (temp->next)
 		temp = temp->next;
 
-	temp->next = new;
+	temp->next = w;
 
-	return (new);
+	return (w);
 }
